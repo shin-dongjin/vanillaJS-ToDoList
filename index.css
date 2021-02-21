@@ -17,6 +17,11 @@ body {
     display: none;
 }
 
+.forms {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .showing {
     display: block;
 }
@@ -38,4 +43,16 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+}
+
+.clock {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.input {
+    text-align: center;
+    padding: 12px;
+    font-size: 30px;
 }
